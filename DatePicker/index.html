@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selecionador de data</title>
+    <style type="text/css">
+        body {
+            margin: 0;
+        }
+        .hora-escolha {
+            width: 100px;
+            height: 100px;
+            background-color: #EEE;
+            color: #fff;
+            position: absolute;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <label for="hora1">Hora 1</label><br>
+    <input type="text" name="hora1" id="hora1"><br><br>
+
+    <label for="hora2">Hora 2</label><br>
+    <input type="text" name="hora2" id="hora2"><br><br>
+
+    <label for="hora3">Hora 3</label><br>
+    <input type="text" name="hora3" id="hora3"><br><br>
+
+    <label for="hora4">Hora 4</label><br>
+    <input type="text" name="hora4" id="hora4"><br><br>
+
+    <div class="hora-escolha">
+        <button>10:00</button>
+        <button>13:00</button>
+        <button>16:00</button>
+        <button>20:00</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
